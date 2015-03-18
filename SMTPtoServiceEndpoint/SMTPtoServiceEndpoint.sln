@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gonemad.SMTPtoServiceEndpoint", "Gonemad.SMTPtoServiceEndpoint\Gonemad.SMTPtoServiceEndpoint.csproj", "{49923666-DA67-4343-9B1D-7E98CAAC7F2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MimeParser", "MimeParser\MimeParser.csproj", "{E8DABA90-6862-4C46-82D0-C174A7D28655}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTestHost", "ServerTestHost\ServerTestHost.csproj", "{A513F2DB-3B43-4753-A496-B1E665FB5000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gonemad.SMTPtoServiceEndpoint.Contracts", "Gonemad.SMTPtoServiceEndpoint.Contracts\Gonemad.SMTPtoServiceEndpoint.Contracts.csproj", "{6D919150-B211-4E2A-BE00-6164024007F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gonemad.MailboxMonitor", "Gonemad.MailboxMonitor\Gonemad.MailboxMonitor.csproj", "{6645B8FD-51E6-4B3A-A79C-150ED4E63016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{A513F2DB-3B43-4753-A496-B1E665FB5000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A513F2DB-3B43-4753-A496-B1E665FB5000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A513F2DB-3B43-4753-A496-B1E665FB5000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D919150-B211-4E2A-BE00-6164024007F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D919150-B211-4E2A-BE00-6164024007F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D919150-B211-4E2A-BE00-6164024007F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D919150-B211-4E2A-BE00-6164024007F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6645B8FD-51E6-4B3A-A79C-150ED4E63016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6645B8FD-51E6-4B3A-A79C-150ED4E63016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6645B8FD-51E6-4B3A-A79C-150ED4E63016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6645B8FD-51E6-4B3A-A79C-150ED4E63016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -394,8 +394,8 @@ namespace Amende.Snorre
                     i += 2;
                     b.Append((char)tmpbyte);
                 }
-                else if (trall[i] == '_')
-                    b.Append(' ');
+                //else if (trall[i] == '_')
+                //    b.Append(' ');
                 else
                     b.Append(trall[i]);
             }

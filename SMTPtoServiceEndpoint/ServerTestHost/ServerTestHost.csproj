@@ -48,6 +48,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Gonemad.SMTPtoServiceEndpoint.Contracts\Gonemad.SMTPtoServiceEndpoint.Contracts.csproj">
+      <Project>{6d919150-b211-4e2a-be00-6164024007f8}</Project>
+      <Name>Gonemad.SMTPtoServiceEndpoint.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Gonemad.SMTPtoServiceEndpoint\Gonemad.SMTPtoServiceEndpoint.csproj">
       <Project>{49923666-da67-4343-9b1d-7e98caac7f2b}</Project>
       <Name>Gonemad.SMTPtoServiceEndpoint</Name>

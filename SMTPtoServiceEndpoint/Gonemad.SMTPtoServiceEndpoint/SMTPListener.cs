@@ -114,6 +114,8 @@ namespace Gonemad.SMTPtoServiceEndpoint
         {
             if (this.MailReceived != null)
                 this.MailReceived(this, e);
+
+            MessageHandler.StartNew(e.Message);
         }
 
         #endregion

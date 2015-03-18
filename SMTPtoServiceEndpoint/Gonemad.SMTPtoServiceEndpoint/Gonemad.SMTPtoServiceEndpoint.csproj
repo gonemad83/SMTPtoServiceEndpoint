@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,12 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMessageHandler.cs" />
+    <Compile Include="MessageHandler.cs" />
     <Compile Include="SMTPClientHandler.cs" />
     <Compile Include="SMTPClientHandlerNewMailItemEventArgs.cs" />
     <Compile Include="SMTPListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Gonemad.SMTPtoServiceEndpoint.Contracts\Gonemad.SMTPtoServiceEndpoint.Contracts.csproj">
+      <Project>{6d919150-b211-4e2a-be00-6164024007f8}</Project>
+      <Name>Gonemad.SMTPtoServiceEndpoint.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MimeParser\MimeParser.csproj">
       <Project>{e8daba90-6862-4c46-82d0-c174a7d28655}</Project>
       <Name>MimeParser</Name>

@@ -40,8 +40,6 @@ namespace Gonemad.SMTPtoServiceEndpoint
 
         #endregion
 
-
-
         private async Task WriteAsync(string strMessage)
         {
             //ASCIIEncoding encoder = new ASCIIEncoding();
